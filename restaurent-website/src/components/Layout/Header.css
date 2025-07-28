@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(178, 24, 24);
+  z-index: 10;
+  color: white;
+}
+
+.headerContainer h1 {
+  margin-left: 70px;
+}
+
+.header-image img {
+  z-index: 0;
+  width: 110%;
+  height: 25rem;
+  transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  object-fit: cover;
+}

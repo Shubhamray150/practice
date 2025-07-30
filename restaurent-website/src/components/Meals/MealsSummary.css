@@ -1,13 +1,13 @@
 .summary {
   background-color: rgb(50, 50, 50);
   color: white;
-  width: 700px;
+  width: 45rem;
   z-index: 40;
   position: fixed;
-  top: 50%;
+  top: 0%;
   left: 50%;
   border-radius: 20px;
-  transform: translate(-50%, -30%);
+  transform: translate(-50%, -90%);
   padding: 20px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;

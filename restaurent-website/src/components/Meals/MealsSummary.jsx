@@ -1,9 +1,10 @@
 import React from "react";
 import "./MealsSummary.css";
+import Card from "../UI/Card";
 
 const MealsSummary = () => {
   return (
-    <section className="summary">
+    <Card className="summary">
       <h1>Delicious Food, Delivered To You</h1>
       <p>
         Choose your favorite meal from our broad selection of available meals
@@ -13,7 +14,7 @@ const MealsSummary = () => {
         All our meals are cooked with high-quality ingredients , just-in-time
         and of course by experienced chefs!
       </p>
-    </section>
+    </Card>
   );
 };
 

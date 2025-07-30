@@ -21,6 +21,6 @@
   z-index: 0;
   width: 110%;
   height: 25rem;
-  transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  transform: rotateZ(-4deg) translateY(-4rem) translateX(-1rem);
   object-fit: cover;
 }

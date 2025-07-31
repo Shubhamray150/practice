@@ -1,18 +1,22 @@
 .mealItem {
-  padding: 20px;
-  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem auto;
+  align-items: center;
+  font-family: Arial;
 }
-
-.mealItem h3 {
-  margin-top: 0;
-}
+.name,
+.description,
 .price {
-  color: brown;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0.5rem;
 }
 
-p {
-  margin: 10px;
+.description {
+  font-style: italic;
+}
+
+.price {
+  font-weight: bold;
+  
+  color: rgb(190, 49, 49);
 }

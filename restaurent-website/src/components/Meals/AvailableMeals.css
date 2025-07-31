@@ -1,14 +1,21 @@
 .meals {
-  max-width: 60rem;
-  width: 90%;
-  margin: 2rem auto;
+  width: 60rem;
+  max-width: 90%;
+  border-radius: 10px;
+  margin: auto;
+  padding: 1.5rem;
   animation: meals-appear 1s ease-out forwards;
 }
 
-.meals ul {
+.cardMeals {
+  background-color: white;
+  border-radius: none;
+}
+
+ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  padding: 10px;
+  margin: 30px;
 }
 
 @keyframes meals-appear {

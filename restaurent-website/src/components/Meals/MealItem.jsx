@@ -1,5 +1,6 @@
 import React from "react";
 import "./MealItem.css";
+import MealsForm from "./MealsForm";
 
 const MealItem = (props) => {
   const { name, description, price } = props.item;
@@ -7,10 +8,14 @@ const MealItem = (props) => {
 
   return (
     <li className="mealItem">
-      <h3>{name}</h3>
-      <p>{description}</p>
-      <p className="price">${price}</p>
-      <hr />
+      <div>
+        <h3 className="name">{name}</h3>
+        <p className="description">{description}</p>
+        <p className="price">${price}</p>
+      </div>
+      <div>
+        <MealsForm />
+      </div>
     </li>
   );
 };

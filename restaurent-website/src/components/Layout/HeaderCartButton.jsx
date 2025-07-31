@@ -7,7 +7,7 @@ const HeaderCartButton = () => {
     <button className="headerBtn">
       <CartIcon />
       <span className="cartName">Your Cart</span>
-      <span className="total-cart">0</span>
+      <span className="total-cart">0  </span>
     </button>
   );
 };

@@ -1,23 +1,10 @@
 .summary {
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(33, 33, 33);
   color: white;
-  width: 45rem;
-  z-index: 40;
-  position: fixed;
-  top: 0%;
-  left: 50%;
-  border-radius: 20px;
-  transform: translate(-50%, -90%);
-  padding: 20px;
+  width: 40rem;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.summary h1 {
-  font-size: xx-large;
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
-.summary p {
-  font-size: 17px;
+  padding: 1rem;
+  margin: auto;
+  margin-top: -10%;
+  position: relative;
 }

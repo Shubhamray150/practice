@@ -4,7 +4,6 @@ import MealsForm from "./MealsForm";
 
 const MealItem = (props) => {
   const { name, description, price } = props.item;
-  console.log(props.item);
 
   return (
     <li className="mealItem">
@@ -14,7 +13,7 @@ const MealItem = (props) => {
         <p className="price">${price}</p>
       </div>
       <div>
-        <MealsForm />
+        <MealsForm item={props.item} />
       </div>
     </li>
   );

@@ -2,9 +2,12 @@ import React from "react";
 import "./Cart.css";
 import Modal from "../UI/Modal";
 
-const Cart = () => {
+const Cart = (props) => {
+  const closehandler = () => {
+    props.onClose();
+  };
   return (
-    <Modal>
+    <Modal onClose={props.onClose}>
       <div>
         <span>Sushi</span>
         <div className="total">
@@ -13,7 +16,9 @@ const Cart = () => {
         </div>
       </div>
       <div className="actions">
-        <button className="closeBtn">Close</button>
+        <button className="closeBtn" onClick={closehandler}>
+          Close
+        </button>
         <button className="orderBtn">Order</button>
       </div>
     </Modal>

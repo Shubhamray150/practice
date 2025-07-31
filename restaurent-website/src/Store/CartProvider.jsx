@@ -20,7 +20,18 @@ const CartProvider = (props) => {
     });
   };
 
-  const removeItemHandler = () => {};
+  const removeItemHandler = (data) => {
+    setItem((prevState) => {
+      const newData = prevState.map((i) => {
+        if (data.id == i.id) {
+          return { ...i, amount: i.amount - 1 };
+        } else {
+          return i;
+        }
+      });
+      return newData.filter((val) => val.amount > 0);
+    });
+  };
 
   const cartContextCtx = {
     item: items,

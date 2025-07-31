@@ -3,6 +3,16 @@
   gap: 1rem;
   justify-content: end;
 }
+.totalAmount {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.totalAmount div {
+  font-weight: bold;
+  font-size: 24px;
+}
 
 .actions button {
   padding: 0.5rem;
